@@ -1,0 +1,1 @@
+// Fetches info about current time via ipgeolocation time zone API.
