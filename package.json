@@ -1,14 +1,15 @@
 {
   "name": "1dv610-l1",
   "version": "1.0.0",
-  "description": "Laboration 1 for the course 1dv610.",
+  "description": "Laboration 1 for the course 1dv610",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sabrina Prichard-Lybeck <sp223kz@student.lnu.se>",
   "license": "ISC",
   "dependencies": {
     "vite": "^5.4.2"
