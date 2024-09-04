@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Handjet';
+  src: url('../fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf');
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Handjet';
+  background-image: url('../images/daytime.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nighttime {
+  background-image: url('../images/nighttime.jpg');
+}
+
+#daytime {
+  background-image: url('../images/daytime.jpg')
+}
+
+.btn {
+  background-color:brown;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#name-form {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
