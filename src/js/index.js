@@ -14,14 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Retrieve the user's name from the form.
     const userName = document.getElementById('name').value
 
+    // Fetch the current time.
     const timeFetcher = new TimeFetcher()
     const time = await timeFetcher.fetchTime()
 
-    // if (time )
-
+    // Hide the form and display the custom welcome message.
     nameForm.setAttribute('hidden', '')
-    welcomeMessage.textContent = `Welcome ${userName}!`
-
-    console.log(time)
+    welcomeMessage.textContent = `Welcome ${userName}! It's a beautiful day and the time is ${time}!`
   })
 })

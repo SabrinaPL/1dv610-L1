@@ -15,14 +15,6 @@ body {
   display: none;
 }
 
-#nighttime {
-  background-image: url('../images/nighttime.jpg');
-}
-
-#daytime {
-  background-image: url('../images/daytime.jpg');
-}
-
 .btn {
   font-family: 'Handjet';
   font-size: 1.5rem;
@@ -36,8 +28,9 @@ body {
 }
 
 #name-form-container,
-#time-container {
-  margin-top: 10rem;
+#time-container
+{
+  margin-top: 15rem;
 }
 
 #name-form,
