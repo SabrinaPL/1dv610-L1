@@ -1,3 +1,8 @@
+/** 
+ * Starting point of the application.
+ * 
+ * @author Sabrina Prichard-Lybeck <sp223kz@student.lnu.se>
+ */
 import { TimeFetcher } from '../modules/TimeFetcher.js'
 
 document.addEventListener('DOMContentLoaded', () => {

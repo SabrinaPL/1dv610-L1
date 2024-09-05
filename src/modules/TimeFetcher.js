@@ -1,6 +1,7 @@
 /**
  *
- *
+ * @author Sabrina Prichard-Lybeck <sp223kz@student.lnu.se>
+ * 
  * @class TimeFetcher
  */
 export class TimeFetcher {
