@@ -3,8 +3,18 @@
 
 import { TimeFetcher } from '../modules/TimeFetcher.js'
 
-const timeFetcher = new TimeFetcher()
+document.addEventListener('DOMContentLoaded', () => {
+  const nameForm = document.getElementById('name-form')
 
-const time = await timeFetcher.fetchTime()
+  nameForm.addEventListener('submit', async (event) => {
+    // Prevent the page from auto reloading at form submit.
+    event.preventDefault()
 
-console.log(time)
+    const timeFetcher = new TimeFetcher()
+    const time = await timeFetcher.fetchTime()
+
+    console.log(time)
+
+    nameForm.setAttribute('hidden', '')
+  })
+})

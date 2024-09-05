@@ -29,7 +29,7 @@ export class TimeFetcher {
 
       return currentTime
     } catch (error) {
-      console.log(error)
+      console.error('There was an error fetching the time data:' + error)
     }
   }
 }

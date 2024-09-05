@@ -6,9 +6,13 @@
 body {
   font-size: 20px;
   font-family: 'Handjet';
-  background-image: url('../images/daytime.jpg');
+  background-image: url('../images/fall.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#hidden {
+  display: none;
 }
 
 #nighttime {
@@ -31,6 +35,10 @@ body {
   cursor: pointer;
 }
 
+#name-form-container {
+  margin-top: 10rem;
+}
+
 #name-form,
 #name-form-field {
   font-family: 'Handjet';
@@ -40,4 +48,6 @@ body {
 
 footer {
   text-align: center;
+  margin-top: 50vh;
+  margin-bottom: 0%;
 }
