@@ -10,7 +10,7 @@ export class TimeFetcher {
    */
   async fetchTime () {
     try {
-      const url = 'http://worldtimeapi.org/api/timezone/Europe/Stockholm'
+      const url = 'https://worldtimeapi.org/api/timezone/Europe/Stockholm'
 
       const response = await fetch(url)
 
