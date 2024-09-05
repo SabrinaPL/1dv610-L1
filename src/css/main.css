@@ -20,7 +20,7 @@ body {
 }
 
 #daytime {
-  background-image: url('../images/daytime.jpg')
+  background-image: url('../images/daytime.jpg');
 }
 
 .btn {
@@ -35,12 +35,14 @@ body {
   cursor: pointer;
 }
 
-#name-form-container {
+#name-form-container,
+#time-container {
   margin-top: 10rem;
 }
 
 #name-form,
-#name-form-field {
+#name-form-field,
+#time-container {
   font-family: 'Handjet';
   text-align: center;
   font-size: 2rem;

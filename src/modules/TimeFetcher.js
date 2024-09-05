@@ -24,8 +24,8 @@ export class TimeFetcher {
       const timeStart = data.datetime.indexOf('T') + 1
       const timeEnd = data.datetime.indexOf('+') - 1
 
-      // Retrieve the time from the string.
-      const currentTime = data.datetime.substring(timeStart, timeEnd)
+      // Retrieve the time from the string and remove the milliseconds.
+      const currentTime = data.datetime.substring(timeStart, timeEnd).slice(0, 5)
 
       return currentTime
     } catch (error) {

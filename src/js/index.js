@@ -5,16 +5,23 @@ import { TimeFetcher } from '../modules/TimeFetcher.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   const nameForm = document.getElementById('name-form')
+  const welcomeMessage = document.getElementById('welcome-message')
 
   nameForm.addEventListener('submit', async (event) => {
     // Prevent the page from auto reloading at form submit.
     event.preventDefault()
 
+    // Retrieve the user's name from the form.
+    const userName = document.getElementById('name').value
+
     const timeFetcher = new TimeFetcher()
     const time = await timeFetcher.fetchTime()
 
-    console.log(time)
+    // if (time )
 
     nameForm.setAttribute('hidden', '')
+    welcomeMessage.textContent = `Welcome ${userName}!`
+
+    console.log(time)
   })
 })
